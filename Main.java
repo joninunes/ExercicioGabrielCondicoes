@@ -5,7 +5,6 @@ class Main {
     int b = 3;
     int c = 5;
     int d = 9;
-    int x = 0;
 
     if (!(d > 5)) {
       x = (a + b) * d;
@@ -13,7 +12,7 @@ class Main {
       x = (a - b) / c;
     }
     System.out.println("A: " + x);
-    
+
     // B
     if ((a > 2) && (b < 7)) {
       x = (a + 2) * (b - 2);
